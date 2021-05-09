@@ -14,6 +14,7 @@
 		1D7FF5152648300F0071DF2A /* PushedNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FF5142648300F0071DF2A /* PushedNavigationView.swift */; };
 		1D7FF517264830200071DF2A /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FF516264830200071DF2A /* ModalSheetView.swift */; };
 		1D7FF51926483DDB0071DF2A /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FF51826483DDB0071DF2A /* LargeView.swift */; };
+		1D7FF51B264841660071DF2A /* NavApperanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FF51A264841660071DF2A /* NavApperanceModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1D7FF5142648300F0071DF2A /* PushedNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushedNavigationView.swift; sourceTree = "<group>"; };
 		1D7FF516264830200071DF2A /* ModalSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
 		1D7FF51826483DDB0071DF2A /* LargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
+		1D7FF51A264841660071DF2A /* NavApperanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavApperanceModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1D7FF5142648300F0071DF2A /* PushedNavigationView.swift */,
 				1D7FF516264830200071DF2A /* ModalSheetView.swift */,
 				1D7FF51826483DDB0071DF2A /* LargeView.swift */,
+				1D7FF51A264841660071DF2A /* NavApperanceModifier.swift */,
 			);
 			path = NavigationBarStylingInSwiftUI;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				1D7FF517264830200071DF2A /* ModalSheetView.swift in Sources */,
 				1D7FF5152648300F0071DF2A /* PushedNavigationView.swift in Sources */,
+				1D7FF51B264841660071DF2A /* NavApperanceModifier.swift in Sources */,
 				1D7FF50826482FAA0071DF2A /* ContentView.swift in Sources */,
 				1D7FF51926483DDB0071DF2A /* LargeView.swift in Sources */,
 				1D7FF50626482FAA0071DF2A /* NavigationBarStylingInSwiftUIApp.swift in Sources */,

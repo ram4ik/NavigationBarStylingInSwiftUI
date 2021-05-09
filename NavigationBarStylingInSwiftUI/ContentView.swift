@@ -11,18 +11,6 @@ struct ContentView: View {
     @State private var showNavView: Bool = false
     @State private var showModalView: Bool = false
     
-    init() {
-        let navBarApperance = UINavigationBarAppearance()
-        navBarApperance.titleTextAttributes = [.foregroundColor: UIColor.systemBackground]
-        navBarApperance.largeTitleTextAttributes = [.foregroundColor: UIColor.systemBackground]
-        navBarApperance.backgroundColor = UIColor.orange
-        navBarApperance.shadowColor = .clear
-        UINavigationBar.appearance().standardAppearance = navBarApperance
-        UINavigationBar.appearance().compactAppearance = navBarApperance
-        UINavigationBar.appearance().scrollEdgeAppearance = navBarApperance
-        UINavigationBar.appearance().tintColor = UIColor.systemBackground
-    }
-    
     var body: some View {
         NavigationView {
             ZStack {
@@ -59,7 +47,7 @@ struct ContentView: View {
                     ModalSheetView()
             })
             }
-        }
+        }.navigationApperance(backgroundColor: .orange, foregroundColor: .systemBackground, tintColor: .systemBackground, hideSeparator: true)
     }
 }
 
@@ -68,3 +56,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
