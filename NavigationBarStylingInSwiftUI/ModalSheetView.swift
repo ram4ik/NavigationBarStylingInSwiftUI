@@ -12,15 +12,19 @@ struct ModalSheetView: View {
     
     var body: some View {
         NavigationView {
-            Text("Modal Sheet View")
-                .navigationTitle("Modal Sheet")
-                .navigationBarTitleDisplayMode(.inline)
-                .navigationBarItems(trailing: Button(action: {
-                    presentationMode.wrappedValue.dismiss()
-                }, label: {
-                    Image(systemName: "x.circle.fill")
-                        .font(.title2)
-                }))
+            ZStack {
+                Color(.orange)
+                    .ignoresSafeArea()
+                Text("Modal Sheet View")
+            }
+            .navigationTitle("Modal Sheet")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarItems(trailing: Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }, label: {
+                Image(systemName: "x.circle.fill")
+                    .font(.title2)
+            }))
         }
     }
 }

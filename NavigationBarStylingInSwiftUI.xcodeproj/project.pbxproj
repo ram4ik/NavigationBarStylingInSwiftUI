@@ -13,6 +13,7 @@
 		1D7FF50D26482FAE0071DF2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FF50C26482FAE0071DF2A /* Preview Assets.xcassets */; };
 		1D7FF5152648300F0071DF2A /* PushedNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FF5142648300F0071DF2A /* PushedNavigationView.swift */; };
 		1D7FF517264830200071DF2A /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FF516264830200071DF2A /* ModalSheetView.swift */; };
+		1D7FF51926483DDB0071DF2A /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FF51826483DDB0071DF2A /* LargeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1D7FF50E26482FAE0071DF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D7FF5142648300F0071DF2A /* PushedNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushedNavigationView.swift; sourceTree = "<group>"; };
 		1D7FF516264830200071DF2A /* ModalSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
+		1D7FF51826483DDB0071DF2A /* LargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1D7FF50B26482FAE0071DF2A /* Preview Content */,
 				1D7FF5142648300F0071DF2A /* PushedNavigationView.swift */,
 				1D7FF516264830200071DF2A /* ModalSheetView.swift */,
+				1D7FF51826483DDB0071DF2A /* LargeView.swift */,
 			);
 			path = NavigationBarStylingInSwiftUI;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				1D7FF517264830200071DF2A /* ModalSheetView.swift in Sources */,
 				1D7FF5152648300F0071DF2A /* PushedNavigationView.swift in Sources */,
 				1D7FF50826482FAA0071DF2A /* ContentView.swift in Sources */,
+				1D7FF51926483DDB0071DF2A /* LargeView.swift in Sources */,
 				1D7FF50626482FAA0071DF2A /* NavigationBarStylingInSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

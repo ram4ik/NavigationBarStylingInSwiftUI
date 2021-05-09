@@ -9,9 +9,13 @@ import SwiftUI
 
 struct PushedNavigationView: View {
     var body: some View {
-        Text("View Pushed on Navigation Stack!")
-            .navigationTitle("Pushed View")
-            .navigationBarTitleDisplayMode(.inline)
+        ZStack {
+            Color(.orange)
+                .ignoresSafeArea()
+            Text("View Pushed on Navigation Stack!")
+        }
+        .navigationTitle("Pushed View")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
