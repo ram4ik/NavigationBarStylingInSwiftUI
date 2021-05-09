@@ -9,7 +9,9 @@ import SwiftUI
 
 struct PushedNavigationView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("View Pushed on Navigation Stack!")
+            .navigationTitle("Pushed View")
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 

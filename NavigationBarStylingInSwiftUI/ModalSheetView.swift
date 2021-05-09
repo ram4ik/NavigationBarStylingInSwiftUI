@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct ModalSheetView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            Text("Modal Sheet View")
+                .navigationTitle("Modal Sheet")
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationBarItems(trailing: Button(action: {
+                    presentationMode.wrappedValue.dismiss()
+                }, label: {
+                    Image(systemName: "x.circle.fill")
+                        .font(.title2)
+                }))
+        }
     }
 }
 
